@@ -2050,6 +2050,12 @@
     },
     "done": false
   },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-04-18 01:48:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2062,6 +2068,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/gold_machete_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2071,6 +2083,12 @@
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
     },
     "done": true
   },
@@ -2098,6 +2116,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2116,9 +2140,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-04-18 01:48:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-04-18 01:14:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
     },
     "done": true
   },
@@ -2134,6 +2170,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/golden_knife": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2146,9 +2188,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-04-18 01:48:22 +0000"
     },
     "done": true
   },
@@ -2176,9 +2242,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2025-04-18 01:14:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
     },
     "done": true
   },
@@ -2200,9 +2284,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
+    },
+    "done": true
+  },
   "enemyexpansion:hunted": {
     "criteria": {
       "hunted_0": "2025-04-18 01:42:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
     },
     "done": true
   },
@@ -2230,6 +2332,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2254,6 +2368,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/gold_plate_shield_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2272,15 +2392,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/misc/generated/recycle/iron_scythe": {
     "criteria": {
       "has_iron_scythe": "2025-04-18 01:16:24 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/gold_hammer_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-18 01:54:42 +0000"
     },
     "done": true
   },
@@ -2293,6 +2431,12 @@
   "l2weaponry:recipes/misc/generated/recycle/iron_battle_axe": {
     "criteria": {
       "has_iron_battle_axe": "2025-04-18 01:42:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-04-18 01:52:21 +0000"
     },
     "done": true
   },
