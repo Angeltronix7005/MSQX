@@ -829,6 +829,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-04-18 01:59:52 +0000",
       "cooked_beef": "2025-04-16 16:03:42 +0000",
       "beef": "2025-04-16 04:01:26 +0000",
       "porkchop": "2025-04-16 04:01:11 +0000",
@@ -843,6 +844,7 @@
       "minecraft:pillager": "2025-04-16 16:44:28 +0000",
       "minecraft:skeleton": "2025-04-16 16:13:33 +0000",
       "minecraft:spider": "2025-04-16 16:26:47 +0000",
+      "minecraft:creeper": "2025-04-18 02:01:00 +0000",
       "minecraft:enderman": "2025-04-16 17:10:39 +0000",
       "minecraft:zombie": "2025-04-16 03:59:57 +0000",
       "minecraft:zombie_villager": "2025-04-16 03:36:27 +0000"
@@ -2044,6 +2046,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
+    },
+    "done": true
+  },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
       "illager_camp": "2025-04-18 01:29:26 +0000"
@@ -2110,6 +2124,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2025-04-18 02:00:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2131,6 +2151,12 @@
   "l2weaponry:recipes/tools/generated/craft/gold_battle_axe_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
     },
     "done": true
   },
@@ -2194,6 +2220,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2025-04-18 01:54:42 +0000"
@@ -2233,6 +2265,12 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-04-18 01:10:21 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/backpack": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
     },
     "done": true
   },
@@ -2308,6 +2346,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/gold_claw_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2338,9 +2382,21 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2025-04-18 01:54:42 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-04-18 02:04:00 +0000"
     },
     "done": true
   },
@@ -2368,6 +2424,12 @@
     },
     "done": true
   },
+  "l2complements:recipes/enchantments/enchantments/snow_walker": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-04-18 01:52:21 +0000"
@@ -2383,6 +2445,18 @@
   "l2weaponry:recipes/tools/generated/craft/gold_scythe_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-04-18 02:03:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2025-04-18 02:00:28 +0000"
     },
     "done": true
   },
@@ -2422,6 +2496,12 @@
     },
     "done": true
   },
+  "l2complements:recipes/burnt/burnt/cooked_chicken": {
+    "criteria": {
+      "has_cooked_chicken": "2025-04-18 02:00:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-04-18 01:20:23 +0000"
@@ -2446,9 +2526,21 @@
     },
     "done": true
   },
+  "l2complements:recipes/burnt/burnt/cooked_porkchop": {
+    "criteria": {
+      "has_cooked_porkchop": "2025-04-18 01:59:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-04-18 02:04:00 +0000"
     },
     "done": true
   },

@@ -289,3 +289,30 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Apr2025 01:55:48.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tienes 5 de iron?
 [18Apr2025 01:55:58.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tienes 5 de iron=
 [18Apr2025 01:56:09.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> para hacer horno automatico de roca
+[18Apr2025 01:59:48.554] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/13640, l='ServerLevel[world]', x=-407.50, y=79.00, z=-325.61] died, message: 'Villager was slain by Zombie'
+[18Apr2025 02:01:07.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> por que hay litera?
+[18Apr2025 02:01:23.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> donde?
+[18Apr2025 02:01:36.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> se llevo mi cama
+[18Apr2025 02:01:45.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> yo queria la azul
+[18Apr2025 02:01:47.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[18Apr2025 02:01:49.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> zzzzzzzzzzzzzzzz
+[18Apr2025 02:01:50.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> zzzzzzzz
+[18Apr2025 02:01:51.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> zzzzzz
+[18Apr2025 02:01:52.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> zzzzz
+[18Apr2025 02:01:53.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> xxxxxxxxxxxx
+[18Apr2025 02:01:53.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> z
+[18Apr2025 02:01:54.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> zzz
+[18Apr2025 02:01:55.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> z
+[18Apr2025 02:02:00.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Sweet Dreams]
+[18Apr2025 02:05:23.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> n o se puede poner la mochila?
+[18Apr2025 02:05:42.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no se puede
+[18Apr2025 02:06:40.257] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Angeltronix7005 lost connection: Disconnected
+[18Apr2025 02:06:40.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 left the game
+[18Apr2025 02:06:40.259] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 3d0eb397-de0a-3271-9aff-8fc4e429df75 was unloaded
+[18Apr2025 02:06:45.388] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Angeltronix7005[/127.166.77.167:54095] logged in with entity id 22159 at (-249.31964307739074, 71.0, -271.32749383097956)
+[18Apr2025 02:06:45.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 joined the game
+[18Apr2025 02:06:45.592] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 3d0eb397-de0a-3271-9aff-8fc4e429df75 was loaded
+[18Apr2025 02:07:42.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[18Apr2025 02:07:42.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: l<--[HERE]
+[18Apr2025 02:08:29.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no se puede poner
+[18Apr2025 02:08:44.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> deja ese
