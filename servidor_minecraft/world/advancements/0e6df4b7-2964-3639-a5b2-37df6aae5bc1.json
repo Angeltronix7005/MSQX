@@ -1067,6 +1067,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "kelp": "2025-04-18 01:35:30 +0000",
       "potato": "2025-04-16 04:09:10 +0000"
     },
     "done": false
@@ -2199,6 +2200,12 @@
     },
     "done": true
   },
+  "enemyexpansion:hunted": {
+    "criteria": {
+      "hunted_0": "2025-04-18 01:42:32 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/gold_claw_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2280,6 +2287,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-04-18 01:20:23 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/misc/generated/recycle/iron_battle_axe": {
+    "criteria": {
+      "has_iron_battle_axe": "2025-04-18 01:42:04 +0000"
     },
     "done": true
   },
