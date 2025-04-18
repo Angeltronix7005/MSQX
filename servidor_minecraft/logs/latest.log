@@ -341,3 +341,23 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Apr2025 02:15:15.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> faltan recursos
 [18Apr2025 02:16:18.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> cuevota
 [18Apr2025 02:17:24.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> nop
+[18Apr2025 02:20:17.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no hay ni mrd en las cuevas
+[18Apr2025 02:20:21.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no vale el precio el peligro
+[18Apr2025 02:21:49.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> see
+[18Apr2025 02:21:53.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[18Apr2025 02:21:53.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: l<--[HERE]
+[18Apr2025 02:23:49.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> nop
+[18Apr2025 02:23:57.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no se como volver
+[18Apr2025 02:24:11.265] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ferlein lost connection: Disconnected
+[18Apr2025 02:24:11.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein left the game
+[18Apr2025 02:24:11.266] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was unloaded
+[18Apr2025 02:25:06.525] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ferlein[/127.226.215.159:36543] logged in with entity id 28734 at (-469.50943767687204, 129.0, -985.3296471081358)
+[18Apr2025 02:25:06.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein joined the game
+[18Apr2025 02:25:06.835] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was loaded
+[18Apr2025 02:25:25.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> la mochila si se puede poner
+[18Apr2025 02:25:29.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pero como pechera
+[18Apr2025 02:25:50.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no se
+[18Apr2025 02:25:56.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> sip
+[18Apr2025 02:26:27.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> es que la mocjila se puede poner en un espacio que no tenemos
+[18Apr2025 02:26:36.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> osea falta un mod complementario
+[18Apr2025 02:28:33.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Best Friends Forever]
