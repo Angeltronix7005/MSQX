@@ -238,3 +238,25 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Apr2025 01:27:27.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported JustRaptor to Angeltronix7005]
 [18Apr2025 01:27:35.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> llegue al spawn
 [18Apr2025 01:28:04.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> corran y precionen shift
+[18Apr2025 01:29:42.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> encontre un campamento
+[18Apr2025 01:29:46.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> adivinen que habia
+[18Apr2025 01:29:53.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> nada
+[18Apr2025 01:30:26.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no importa en que direccion vayas, raptor ya estubo ahi
+[18Apr2025 01:31:28.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no he ido
+[18Apr2025 01:31:33.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> estoy buscando iron
+[18Apr2025 01:31:42.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> suficiente para armaduras?
+[18Apr2025 01:32:46.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> las cuevas estan de la vr
+[18Apr2025 01:32:58.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> hazme tp
+[18Apr2025 01:33:12.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
+[18Apr2025 01:33:12.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> me refiero a que no hay nada o esta re pequeñas
+[18Apr2025 01:33:39.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> cocina para mi
+[18Apr2025 01:33:53.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tengo hambre
+[18Apr2025 01:33:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Crops of the Wild]
+[18Apr2025 01:34:24.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> nunca corto las algas de raiz
+[18Apr2025 01:34:37.492] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-194, y=50, z=-355} BlockPos{x=-194, y=49, z=-355}
+[18Apr2025 01:34:37.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-194, y=50, z=-355} BlockPos{x=-194, y=49, z=-355}
+[18Apr2025 01:35:47.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> si apaecian pero murieron
+[18Apr2025 01:35:57.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Creative Mode]
+[18Apr2025 01:36:52.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Survival Mode]
+[18Apr2025 01:38:31.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp
+[18Apr2025 01:38:36.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]

@@ -15,6 +15,7 @@
     "criteria": {
       "minecraft:beach": "2025-04-16 03:16:08 +0000",
       "minecraft:river": "2025-04-16 03:16:12 +0000",
+      "minecraft:snowy_plains": "2025-04-18 01:30:05 +0000",
       "minecraft:cold_ocean": "2025-04-16 03:16:48 +0000",
       "minecraft:forest": "2025-04-16 03:19:56 +0000",
       "minecraft:plains": "2025-04-16 03:13:32 +0000"
@@ -1433,6 +1434,7 @@
       "minecraft:pillager": "2025-04-16 04:13:00 +0000",
       "minecraft:skeleton": "2025-04-18 01:21:18 +0000",
       "minecraft:spider": "2025-04-18 01:20:43 +0000",
+      "minecraft:creeper": "2025-04-18 01:27:25 +0000",
       "minecraft:silverfish": "2025-04-16 04:25:07 +0000",
       "minecraft:zombie": "2025-04-16 04:18:02 +0000",
       "minecraft:drowned": "2025-04-16 04:22:05 +0000"
@@ -1709,6 +1711,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-04-18 01:33:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-18 01:33:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-04-18 01:18:14 +0000"
@@ -1739,6 +1753,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-04-18 01:33:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2025-04-18 01:33:56 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-18 01:33:53 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/diamond_throwing_axe_enchanted": {
     "criteria": {
       "has_diamond": "2025-04-18 01:18:14 +0000"
@@ -1748,6 +1780,12 @@
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2025-04-18 01:24:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-18 01:33:53 +0000"
     },
     "done": true
   },
@@ -1781,6 +1819,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_onion": "2025-04-18 01:33:56 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-18 01:33:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2025-04-18 01:20:44 +0000"
@@ -1811,9 +1861,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-18 01:33:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-04-18 01:18:14 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/potato_salad": {
+    "criteria": {
+      "has_potato": "2025-04-18 01:33:54 +0000"
     },
     "done": true
   },
@@ -1823,9 +1885,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-18 01:33:53 +0000"
+    },
+    "done": true
+  },
   "rusticdelight:recipes/food/cooked_calamari_from_smoking": {
     "criteria": {
       "has_calamari": "2025-04-18 01:15:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-18 01:33:56 +0000"
     },
     "done": true
   },
@@ -1853,9 +1927,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-04-18 01:33:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-04-18 01:18:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-04-18 01:33:53 +0000"
     },
     "done": true
   },
@@ -1910,6 +1996,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-04-18 01:18:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2025-04-18 01:33:56 +0000"
     },
     "done": true
   },

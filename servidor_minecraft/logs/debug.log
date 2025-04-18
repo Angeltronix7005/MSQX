@@ -4059,3 +4059,78 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Apr2025 01:27:27.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported JustRaptor to Angeltronix7005]
 [18Apr2025 01:27:35.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> llegue al spawn
 [18Apr2025 01:28:04.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> corran y precionen shift
+[18Apr2025 01:29:42.136] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Apr2025 01:29:42.145] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Apr2025 01:29:42.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> encontre un campamento
+[18Apr2025 01:29:46.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> adivinen que habia
+[18Apr2025 01:29:53.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> nada
+[18Apr2025 01:30:21.173] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:tavern/tavern_house_dark_oak
+[18Apr2025 01:30:26.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no importa en que direccion vayas, raptor ya estubo ahi
+[18Apr2025 01:30:43.390] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:bunker/bunker_enterance_3
+[18Apr2025 01:31:28.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no he ido
+[18Apr2025 01:31:33.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> estoy buscando iron
+[18Apr2025 01:31:42.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> suficiente para armaduras?
+[18Apr2025 01:32:46.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> las cuevas estan de la vr
+[18Apr2025 01:32:58.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> hazme tp
+[18Apr2025 01:33:12.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
+[18Apr2025 01:33:12.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> me refiero a que no hay nada o esta re pequeñas
+[18Apr2025 01:33:39.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> cocina para mi
+[18Apr2025 01:33:53.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tengo hambre
+[18Apr2025 01:33:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Crops of the Wild]
+[18Apr2025 01:34:24.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> nunca corto las algas de raiz
+[18Apr2025 01:34:37.492] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-194, y=50, z=-355} BlockPos{x=-194, y=49, z=-355}
+[18Apr2025 01:34:37.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-194, y=50, z=-355} BlockPos{x=-194, y=49, z=-355}
+[18Apr2025 01:34:42.136] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[18Apr2025 01:34:42.146] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[18Apr2025 01:35:47.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> si apaecian pero murieron
+[18Apr2025 01:35:57.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Creative Mode]
+[18Apr2025 01:36:34.890] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:wild_ruin/wild_ruin_11
+[18Apr2025 01:36:52.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Survival Mode]
+[18Apr2025 01:36:53.621] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_heart
+[18Apr2025 01:36:53.627] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_long_sa
+[18Apr2025 01:36:53.628] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_sb
+[18Apr2025 01:36:53.630] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_a
+[18Apr2025 01:36:53.631] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_sra
+[18Apr2025 01:36:53.632] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_long_c
+[18Apr2025 01:36:53.634] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_long_sb
+[18Apr2025 01:36:53.635] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_long_srb
+[18Apr2025 01:36:53.639] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x4_4
+[18Apr2025 01:36:53.645] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x4_2
+[18Apr2025 01:36:53.648] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x3_1
+[18Apr2025 01:36:53.658] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x3_5
+[18Apr2025 01:36:53.662] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x3_4
+[18Apr2025 01:36:53.665] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x3_3
+[18Apr2025 01:36:53.670] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x4_1
+[18Apr2025 01:36:53.672] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x3_2
+[18Apr2025 01:36:53.679] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_5x6_2
+[18Apr2025 01:36:53.681] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x4_5
+[18Apr2025 01:36:53.683] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_4x4_1
+[18Apr2025 01:36:53.686] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x4_3
+[18Apr2025 01:36:53.693] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_5x6_3
+[18Apr2025 01:36:53.696] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_3x3_6
+[18Apr2025 01:36:53.702] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_4x4_2
+[18Apr2025 01:36:53.706] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_4x4_3
+[18Apr2025 01:36:53.711] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_4x4_4
+[18Apr2025 01:36:53.723] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_5x6_1
+[18Apr2025 01:36:53.725] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_hallway_lock
+[18Apr2025 01:36:53.733] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_long_b
+[18Apr2025 01:36:53.737] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_lb
+[18Apr2025 01:36:53.740] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_src
+[18Apr2025 01:36:53.741] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_c
+[18Apr2025 01:36:53.743] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_lc
+[18Apr2025 01:36:53.744] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_sa
+[18Apr2025 01:36:53.746] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_long_a
+[18Apr2025 01:36:53.747] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_srb
+[18Apr2025 01:36:53.748] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_srb
+[18Apr2025 01:36:53.749] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_b
+[18Apr2025 01:36:53.751] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_sc
+[18Apr2025 01:36:53.752] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_long_sra
+[18Apr2025 01:36:53.753] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_src
+[18Apr2025 01:36:53.755] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_b
+[18Apr2025 01:36:53.756] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_sc
+[18Apr2025 01:36:53.758] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_a
+[18Apr2025 01:36:53.759] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_c
+[18Apr2025 01:36:53.760] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_tiny_sa
+[18Apr2025 01:36:53.761] [Worker-Main-17/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:illager_hideout/illager_hideout_path_short_sra
+[18Apr2025 01:38:31.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp
+[18Apr2025 01:38:36.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]

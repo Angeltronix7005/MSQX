@@ -2043,6 +2043,12 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "illager_camp": "2025-04-18 01:29:26 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"

@@ -1572,7 +1572,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-04-18 01:26:44 +0000",
       "minecraft:spider": "2025-04-16 16:13:34 +0000",
+      "minecraft:creeper": "2025-04-18 01:27:22 +0000",
       "minecraft:enderman": "2025-04-16 17:02:46 +0000",
       "minecraft:zombie": "2025-04-16 16:26:36 +0000"
     },
@@ -1983,6 +1985,12 @@
   "advancednetherite:recipes/misc/lodestone": {
     "criteria": {
       "has_chiseled_stone_bricks": "2025-04-18 01:21:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-04-18 01:26:31 +0000"
     },
     "done": true
   },
