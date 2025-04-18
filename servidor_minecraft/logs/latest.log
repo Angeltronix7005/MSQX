@@ -221,3 +221,20 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Apr2025 01:18:28.470] [Worker-Main-17/INFO] [ModernFix/]: Instantiating Mojang DFU
 [18Apr2025 01:18:38.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzzzzz
 [18Apr2025 01:18:53.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[18Apr2025 01:20:07.574] [Worker-Main-17/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[18Apr2025 01:20:15.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> granja de algas?
+[18Apr2025 01:21:35.473] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:stonecutting in 116.7 μs. 201/201 recipes are parallelized.
+[18Apr2025 01:23:23.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> yo
+[18Apr2025 01:23:25.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> queria ser
+[18Apr2025 01:23:28.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> esa mujer
+[18Apr2025 01:23:50.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> bb
+[18Apr2025 01:23:57.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> te quieres quedar con la oz?
+[18Apr2025 01:24:17.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> es que no se puede usar oz y escudo a la vez
+[18Apr2025 01:24:22.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ya no me gusto
+[18Apr2025 01:25:32.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> trae
+[18Apr2025 01:25:59.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> es mejor
+[18Apr2025 01:26:12.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> }
+[18Apr2025 01:26:31.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 has made the advancement [Not Today, Thank You]
+[18Apr2025 01:27:27.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported JustRaptor to Angeltronix7005]
+[18Apr2025 01:27:35.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> llegue al spawn
+[18Apr2025 01:28:04.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> corran y precionen shift

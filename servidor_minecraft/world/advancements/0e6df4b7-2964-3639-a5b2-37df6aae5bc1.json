@@ -2073,6 +2073,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-04-18 01:20:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2097,6 +2103,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-04-18 01:20:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-04-18 01:14:33 +0000"
@@ -2109,9 +2121,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-04-18 01:20:23 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/golden_knife": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-04-18 01:20:23 +0000"
     },
     "done": true
   },
@@ -2211,6 +2235,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-04-18 01:20:23 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/gold_plate_shield_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
@@ -2229,9 +2259,21 @@
     },
     "done": true
   },
+  "l2weaponry:recipes/misc/generated/recycle/iron_scythe": {
+    "criteria": {
+      "has_iron_scythe": "2025-04-18 01:16:24 +0000"
+    },
+    "done": true
+  },
   "l2weaponry:recipes/tools/generated/craft/gold_hammer_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-18 01:13:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-04-18 01:20:23 +0000"
     },
     "done": true
   },
