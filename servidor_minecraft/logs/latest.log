@@ -1,238 +1,73 @@
-[16Apr2025 15:39:24.843] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[16Apr2025 15:39:24.854] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[16Apr2025 15:39:25.348] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[16Apr2025 15:39:25.411] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSQX/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[16Apr2025 15:39:25.896] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[16Apr2025 15:39:25.898] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[16Apr2025 15:39:25.900] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[16Apr2025 15:39:25.904] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[16Apr2025 15:39:26.229] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[16Apr2025 15:39:26.231] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
-[16Apr2025 15:39:29.907] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Apr2025 15:39:30.192] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[16Apr2025 15:39:30.196] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[16Apr2025 15:39:30.217] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Apr2025 15:39:30.354] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 1 override(s) found
-[16Apr2025 15:39:30.356] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
-[16Apr2025 15:39:30.358] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[16Apr2025 15:39:30.382] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[16Apr2025 15:39:30.592] [main/WARN] [mixin/]: Reference map 'itemselector.refmap.json' for l2itemselector.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Apr2025 15:39:30.854] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[16Apr2025 15:39:30.957] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[16Apr2025 15:39:33.168] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[16Apr2025 15:39:34.214] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (13.24 s after launch)
-[16Apr2025 15:39:34.352] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[16Apr2025 15:39:34.353] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[16Apr2025 15:39:34.508] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[16Apr2025 15:39:34.510] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[16Apr2025 15:39:36.433] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2199 milliseconds
-[16Apr2025 15:39:37.344] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[16Apr2025 15:39:37.345] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[16Apr2025 15:39:37.444] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[16Apr2025 15:39:37.445] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[16Apr2025 15:39:42.043] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[16Apr2025 15:39:42.045] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[16Apr2025 15:39:42.451] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
-[16Apr2025 15:39:42.451] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
-[16Apr2025 15:39:42.451] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
-[16Apr2025 15:39:42.456] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
-[16Apr2025 15:39:42.458] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.1.
-[16Apr2025 15:39:42.944] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[16Apr2025 15:39:42.969] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[16Apr2025 15:39:45.872] [modloading-worker-0/INFO] [com.limitedchunks.LimitedChunks/]: Limited chunkloading initialized
-[16Apr2025 15:39:45.874] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
-[16Apr2025 15:39:45.988] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[16Apr2025 15:39:45.991] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
-[16Apr2025 15:39:45.991] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
-[16Apr2025 15:39:45.992] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
-[16Apr2025 15:39:45.994] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
-[16Apr2025 15:39:45.994] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
-[16Apr2025 15:39:45.995] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
-[16Apr2025 15:39:45.995] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
-[16Apr2025 15:39:45.995] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
-[16Apr2025 15:39:45.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
-[16Apr2025 15:39:46.110] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[16Apr2025 15:39:46.145] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[16Apr2025 15:39:46.256] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[16Apr2025 15:39:46.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[16Apr2025 15:39:46.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
-[16Apr2025 15:39:46.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.3 Target: null
-[16Apr2025 15:39:46.840] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
-[16Apr2025 15:39:46.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.3 Target: 2.1.3
-[16Apr2025 15:39:46.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[16Apr2025 15:39:47.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
-[16Apr2025 15:39:47.393] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16Apr2025 15:39:47.583] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[16Apr2025 15:39:47.677] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-rotted (version 1.20.1-1.0.5 -> MISSING)
-Things may not work well.
-[16Apr2025 15:39:47.824] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
-	rotted:adventurer: 128
-	rotted:doctor: 125
-	rotted:farmer: 126
-	rotted:flusk: 129
-	rotted:marine: 124
-	rotted:miner: 127
-	rotted:shielder: 130
-
-[16Apr2025 15:39:47.825] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
-	rotted:adventurer_spawn_egg: 1259
-	rotted:doctor_spawn_egg: 1256
-	rotted:farmer_spawn_egg: 1257
-	rotted:flusk_spawn_egg: 1260
-	rotted:flusk_viscera: 1263
-	rotted:marine_spawn_egg: 1255
-	rotted:miner_spawn_egg: 1258
-	rotted:rotten_brain: 1262
-	rotted:shielder_spawn_egg: 1261
-	rotted:visceric_knife: 1264
-
-[16Apr2025 15:39:47.826] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
-	rotted:contagion: 0
-
-[16Apr2025 15:39:47.827] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
-	rotted:entity.pestilith.ambient: 1478
-	rotted:entity.pestilith.birth: 1480
-	rotted:entity.pestilith.death: 1479
-	rotted:entity.rotted_zombie.ambient: 1474
-	rotted:entity.rotted_zombie.breaks_block: 1477
-	rotted:entity.rotted_zombie.death: 1476
-	rotted:entity.rotted_zombie.hurt: 1475
-
-[16Apr2025 15:39:47.830] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
-
-There are 25 missing entries in this save.
-If you continue the missing entries will get removed.
-A world backup will be automatically created in your saves directory.
-
-
-[16Apr2025 15:39:47.831] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
-    rotted:entity.pestilith.ambient
-    rotted:entity.pestilith.birth
-    rotted:entity.pestilith.death
-    rotted:entity.rotted_zombie.ambient
-    rotted:entity.rotted_zombie.breaks_block
-    rotted:entity.rotted_zombie.death
-    rotted:entity.rotted_zombie.hurt
-
-Missing minecraft:item:
-    rotted:adventurer_spawn_egg
-    rotted:doctor_spawn_egg
-    rotted:farmer_spawn_egg
-    rotted:flusk_spawn_egg
-    rotted:flusk_viscera
-    rotted:marine_spawn_egg
-    rotted:miner_spawn_egg
-    rotted:rotten_brain
-    rotted:shielder_spawn_egg
-    rotted:visceric_knife
-
-Missing minecraft:mob_effect:
-    rotted:contagion
-
-Missing minecraft:entity_type:
-    rotted:adventurer
-    rotted:doctor
-    rotted:farmer
-    rotted:flusk
-    rotted:marine
-    rotted:miner
-    rotted:shielder
-
-
-[16Apr2025 15:39:47.831] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[16Apr2025 15:39:47.838] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:sprinter_spawn_egg Expected: 1359 Got: 1369
-[16Apr2025 15:39:47.839] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:slugger_spawn_egg Expected: 1360 Got: 1370
-[16Apr2025 15:39:47.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:meature_spawn_egg Expected: 1361 Got: 1371
-[16Apr2025 15:39:47.841] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:equestrian_spawn_egg Expected: 1362 Got: 1372
-[16Apr2025 15:39:47.842] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:goblin_spawn_egg Expected: 1363 Got: 1373
-[16Apr2025 15:39:47.842] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:tarantula_spawn_egg Expected: 1364 Got: 1374
-[16Apr2025 15:39:47.843] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:scorpion_spawn_egg Expected: 1365 Got: 1375
-[16Apr2025 15:39:47.843] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:ladybug_spawn_egg Expected: 1366 Got: 1376
-[16Apr2025 15:39:47.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:scorpion_tail Expected: 1367 Got: 1377
-[16Apr2025 15:39:47.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:meathead_helmet Expected: 1368 Got: 1378
-[16Apr2025 15:39:47.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:horsehead_helmet Expected: 1369 Got: 1379
-[16Apr2025 15:39:47.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:wasp_spawn_egg Expected: 1370 Got: 1380
-[16Apr2025 15:39:47.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:drone_spawn_egg Expected: 1371 Got: 1381
-[16Apr2025 15:39:47.844] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:botfly_spawn_egg Expected: 1372 Got: 1382
-[16Apr2025 15:39:47.845] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:flutterfly_spawn_egg Expected: 1373 Got: 1383
-[16Apr2025 15:39:47.845] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:huntsman_spawn_egg Expected: 1374 Got: 1384
-[16Apr2025 15:39:47.846] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:starved_spawn_egg Expected: 1375 Got: 1385
-[16Apr2025 15:39:47.846] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:vampire_spawn_egg Expected: 1376 Got: 1386
-[16Apr2025 15:39:47.846] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:vampflyer_spawn_egg Expected: 1377 Got: 1387
-[16Apr2025 15:39:47.846] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:vampbiter_spawn_egg Expected: 1378 Got: 1388
-[16Apr2025 15:39:47.846] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:headbiter_helmet Expected: 1379 Got: 1389
-[16Apr2025 15:39:47.846] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:troll_spawn_egg Expected: 1380 Got: 1390
-[16Apr2025 15:39:47.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:trollenraged_spawn_egg Expected: 1381 Got: 1391
-[16Apr2025 15:39:47.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:bottled_flutterfly Expected: 1382 Got: 1392
-[16Apr2025 15:39:47.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:silverqueen_spawn_egg Expected: 1383 Got: 1393
-[16Apr2025 15:39:47.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:silverqueenbodiless_spawn_egg Expected: 1384 Got: 1394
-[16Apr2025 15:39:47.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:silverhead_helmet Expected: 1385 Got: 1395
-[16Apr2025 15:39:47.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:phantasm_helmet Expected: 1386 Got: 1396
-[16Apr2025 15:39:47.848] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:phantasm_chestplate Expected: 1387 Got: 1397
-[16Apr2025 15:39:47.848] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:phantasm_leggings Expected: 1388 Got: 1398
-[16Apr2025 15:39:47.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:phantasm_boots Expected: 1389 Got: 1399
-[16Apr2025 15:39:47.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:trollface Expected: 1390 Got: 1400
-[16Apr2025 15:39:47.850] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:troll_molar Expected: 1391 Got: 1401
-[16Apr2025 15:39:47.850] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:deathstick Expected: 1392 Got: 1402
-[16Apr2025 15:39:47.850] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:direwolf_spawn_egg Expected: 1393 Got: 1403
-[16Apr2025 15:39:47.850] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:healing_eye Expected: 1394 Got: 1404
-[16Apr2025 15:39:47.851] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:wasp_thorax Expected: 1395 Got: 1405
-[16Apr2025 15:39:47.851] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:phantom_eye Expected: 1396 Got: 1406
-[16Apr2025 15:39:47.851] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:crawler_spawn_egg Expected: 1397 Got: 1407
-[16Apr2025 15:39:47.851] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:faller_spawn_egg Expected: 1398 Got: 1408
-[16Apr2025 15:39:47.852] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: enemyexpansion:intruder_spawn_egg Expected: 1399 Got: 1409
-[16Apr2025 15:39:47.852] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:swift_flight Expected: 34 Got: 35
-[16Apr2025 15:39:47.852] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:bitten Expected: 35 Got: 36
-[16Apr2025 15:39:47.852] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:despawner Expected: 36 Got: 37
-[16Apr2025 15:39:47.852] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:timer Expected: 37 Got: 38
-[16Apr2025 15:39:47.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:cardiac Expected: 38 Got: 39
-[16Apr2025 15:39:47.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:sandstorm Expected: 39 Got: 40
-[16Apr2025 15:39:47.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:explosive_launch Expected: 40 Got: 41
-[16Apr2025 15:39:47.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:overtime Expected: 41 Got: 42
-[16Apr2025 15:39:47.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:metamorphosis Expected: 42 Got: 43
-[16Apr2025 15:39:47.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: enemyexpansion:morphlocked Expected: 43 Got: 44
-[16Apr2025 15:39:47.856] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: enemyexpansion:starved.chomp Expected: 1476 Got: 1483
-[16Apr2025 15:39:47.857] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: enemyexpansion:troll.idle Expected: 1477 Got: 1484
-[16Apr2025 15:39:47.857] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: enemyexpansion:troll.hurt Expected: 1478 Got: 1485
-[16Apr2025 15:39:47.857] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: enemyexpansion:troll.roar Expected: 1479 Got: 1486
-[16Apr2025 15:39:47.857] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: enemyexpansion:troll.death Expected: 1480 Got: 1487
-[16Apr2025 15:39:47.859] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:sprinter Expected: 125 Got: 132
-[16Apr2025 15:39:47.859] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:slugger Expected: 126 Got: 133
-[16Apr2025 15:39:47.859] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:meature Expected: 127 Got: 134
-[16Apr2025 15:39:47.859] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:equestrian Expected: 128 Got: 135
-[16Apr2025 15:39:47.860] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:goblin Expected: 129 Got: 136
-[16Apr2025 15:39:47.860] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:goblin_fear Expected: 130 Got: 137
-[16Apr2025 15:39:47.860] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:tarantula Expected: 131 Got: 138
-[16Apr2025 15:39:47.861] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:scorpion Expected: 132 Got: 139
-[16Apr2025 15:39:47.862] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:ladybug Expected: 133 Got: 140
-[16Apr2025 15:39:47.862] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:wasp Expected: 134 Got: 141
-[16Apr2025 15:39:47.863] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:drone Expected: 135 Got: 142
-[16Apr2025 15:39:47.863] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:botfly Expected: 136 Got: 143
-[16Apr2025 15:39:47.863] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:flutterfly Expected: 137 Got: 144
-[16Apr2025 15:39:47.863] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:huntsman Expected: 138 Got: 145
-[16Apr2025 15:39:47.864] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:starved Expected: 139 Got: 146
-[16Apr2025 15:39:47.864] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:vampire Expected: 140 Got: 147
-[16Apr2025 15:39:47.864] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:vampflyer Expected: 141 Got: 148
-[16Apr2025 15:39:47.864] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:vampbiter Expected: 142 Got: 149
-[16Apr2025 15:39:47.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:troll Expected: 143 Got: 150
-[16Apr2025 15:39:47.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:trollenraged Expected: 144 Got: 151
-[16Apr2025 15:39:47.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:silverqueen Expected: 145 Got: 152
-[16Apr2025 15:39:47.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:silverqueenbodiless Expected: 146 Got: 153
-[16Apr2025 15:39:47.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:direwolf Expected: 147 Got: 154
-[16Apr2025 15:39:47.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:healing_eye_projectile Expected: 148 Got: 155
-[16Apr2025 15:39:47.865] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:wasp_thorax_projectile Expected: 149 Got: 156
-[16Apr2025 15:39:47.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:phantom_eye_projectile Expected: 150 Got: 157
-[16Apr2025 15:39:47.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:crawler Expected: 151 Got: 158
-[16Apr2025 15:39:47.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:invisicreeper Expected: 152 Got: 159
-[16Apr2025 15:39:47.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:faller Expected: 153 Got: 160
-[16Apr2025 15:39:47.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: enemyexpansion:intruder Expected: 154 Got: 161
-[16Apr2025 15:39:48.085] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSQX/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
-[16Apr2025 15:39:48.085] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSQX/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
-[16Apr2025 15:39:48.184] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:rotted
-[16Apr2025 15:39:51.411] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_eyestalker as it is missing following references: #forge:is_end (from enemyexpansion-2.3.1-forge-1.20.1.jar)
-[16Apr2025 15:39:51.412] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_flutterfly as it is missing following references: #forge:is_magical (from enemyexpansion-2.3.1-forge-1.20.1.jar)
-[16Apr2025 15:39:52.651] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
+[18Apr2025 01:09:10.214] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Apr2025 01:09:10.229] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[18Apr2025 01:09:11.077] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Apr2025 01:09:11.162] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSQX/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Apr2025 01:09:11.781] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[18Apr2025 01:09:11.783] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Apr2025 01:09:11.785] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Apr2025 01:09:11.787] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSQX/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Apr2025 01:09:12.176] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[18Apr2025 01:09:12.177] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[18Apr2025 01:09:16.157] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Apr2025 01:09:16.434] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[18Apr2025 01:09:16.435] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Apr2025 01:09:16.449] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Apr2025 01:09:16.650] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 1 override(s) found
+[18Apr2025 01:09:16.651] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[18Apr2025 01:09:16.652] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[18Apr2025 01:09:16.681] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[18Apr2025 01:09:17.139] [main/WARN] [mixin/]: Reference map 'itemselector.refmap.json' for l2itemselector.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Apr2025 01:09:17.469] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2025 01:09:17.559] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2025 01:09:19.642] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18Apr2025 01:09:20.818] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (14.53 s after launch)
+[18Apr2025 01:09:21.071] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[18Apr2025 01:09:21.072] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[18Apr2025 01:09:21.354] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[18Apr2025 01:09:21.355] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[18Apr2025 01:09:23.817] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2993 milliseconds
+[18Apr2025 01:09:24.671] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2025 01:09:24.672] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2025 01:09:24.752] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2025 01:09:24.753] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[18Apr2025 01:09:29.258] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[18Apr2025 01:09:29.259] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[18Apr2025 01:09:29.530] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
+[18Apr2025 01:09:29.530] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
+[18Apr2025 01:09:29.530] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
+[18Apr2025 01:09:29.536] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.1.
+[18Apr2025 01:09:29.601] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
+[18Apr2025 01:09:29.958] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[18Apr2025 01:09:29.987] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[18Apr2025 01:09:32.636] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[18Apr2025 01:09:32.751] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[18Apr2025 01:09:32.751] [modloading-worker-0/INFO] [com.limitedchunks.LimitedChunks/]: Limited chunkloading initialized
+[18Apr2025 01:09:32.924] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[18Apr2025 01:09:32.927] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[18Apr2025 01:09:32.927] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[18Apr2025 01:09:32.927] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[18Apr2025 01:09:32.928] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[18Apr2025 01:09:32.928] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[18Apr2025 01:09:32.928] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[18Apr2025 01:09:32.928] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[18Apr2025 01:09:32.928] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[18Apr2025 01:09:32.929] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[18Apr2025 01:09:33.043] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[18Apr2025 01:09:33.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Apr2025 01:09:33.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[18Apr2025 01:09:33.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
+[18Apr2025 01:09:34.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.3 Target: null
+[18Apr2025 01:09:34.065] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[18Apr2025 01:09:34.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.3 Target: 2.1.3
+[18Apr2025 01:09:34.079] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[18Apr2025 01:09:34.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[18Apr2025 01:09:34.507] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Apr2025 01:09:34.690] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[18Apr2025 01:09:35.128] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSQX/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
+[18Apr2025 01:09:35.128] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSQX/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
+[18Apr2025 01:09:38.296] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_eyestalker as it is missing following references: #forge:is_end (from enemyexpansion-2.3.1-forge-1.20.1.jar)
+[18Apr2025 01:09:38.298] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:is_flutterfly as it is missing following references: #forge:is_magical (from enemyexpansion-2.3.1-forge-1.20.1.jar)
+[18Apr2025 01:09:39.267] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -284,19 +119,19 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[16Apr2025 15:39:53.298] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_cotton as it's serializer returned null
-[16Apr2025 15:39:53.310] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_bell_peppers as it's serializer returned null
-[16Apr2025 15:39:53.340] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe rusticdelight:brewing/coffee as it's serializer returned null
-[16Apr2025 15:39:53.423] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe oceanic_delight:jeed_instant_breath: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
-[16Apr2025 15:39:53.448] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe oceanic_delight:jeed_comfort: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
-[16Apr2025 15:39:53.463] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/coffee as it's serializer returned null
-[16Apr2025 15:39:53.475] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide: com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
-[16Apr2025 15:39:53.571] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/bell_peppers as it's serializer returned null
-[16Apr2025 15:39:53.598] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe oceanic_delight:jeed_nourishment: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
-[16Apr2025 15:39:53.617] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/cotton as it's serializer returned null
-[16Apr2025 15:39:53.619] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_coffee as it's serializer returned null
-[16Apr2025 15:39:53.629] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[16Apr2025 15:39:53.630] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function enemyexpansion:silver_exes
+[18Apr2025 01:09:39.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_cotton as it's serializer returned null
+[18Apr2025 01:09:39.977] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_bell_peppers as it's serializer returned null
+[18Apr2025 01:09:39.998] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe rusticdelight:brewing/coffee as it's serializer returned null
+[18Apr2025 01:09:40.050] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe oceanic_delight:jeed_instant_breath: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[18Apr2025 01:09:40.068] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe oceanic_delight:jeed_comfort: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[18Apr2025 01:09:40.084] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/coffee as it's serializer returned null
+[18Apr2025 01:09:40.101] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide: com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+[18Apr2025 01:09:40.190] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/bell_peppers as it's serializer returned null
+[18Apr2025 01:09:40.210] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe oceanic_delight:jeed_nourishment: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[18Apr2025 01:09:40.223] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/cotton as it's serializer returned null
+[18Apr2025 01:09:40.225] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_coffee as it's serializer returned null
+[18Apr2025 01:09:40.239] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[18Apr2025 01:09:40.240] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function enemyexpansion:silver_exes
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -312,534 +147,77 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23179!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[16Apr2025 15:39:53.888] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2443 advancements
-[16Apr2025 15:39:53.899] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[16Apr2025 15:39:53.946] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[16Apr2025 15:39:53.955] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_flutterfly
-[16Apr2025 15:39:54.096] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[16Apr2025 15:39:54.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[16Apr2025 15:39:54.098] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[16Apr2025 15:39:54.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[16Apr2025 15:39:54.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[16Apr2025 15:39:54.354] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[16Apr2025 15:39:54.489] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16Apr2025 15:39:54.490] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[16Apr2025 15:39:54.491] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16Apr2025 15:39:54.491] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[16Apr2025 15:39:54.671] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[16Apr2025 15:39:55.547] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
-[16Apr2025 15:39:55.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[16Apr2025 15:39:55.625] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 76 ms
-[16Apr2025 15:39:55.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.116s)! For help, type "help"
-[16Apr2025 15:39:55.672] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[16Apr2025 15:39:55.674] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
-[16Apr2025 15:39:55.675] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
-[16Apr2025 15:39:55.675] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: limitedchunks.json
-[16Apr2025 15:39:55.677] [Server thread/WARN] [ModernFix/]: Dedicated server took 34.701 seconds to load
-[16Apr2025 15:40:45.472] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:farmer is
-[16Apr2025 15:40:45.473] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:shielder is
-[16Apr2025 15:40:45.474] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:marine is
-[16Apr2025 15:40:45.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:flusk is
-[16Apr2025 15:40:45.475] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:adventurer is
-[16Apr2025 15:40:45.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:doctor is
-[16Apr2025 15:40:45.476] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:miner is
-[16Apr2025 15:40:45.477] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:marine is
-[16Apr2025 15:40:45.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:adventurer is
-[16Apr2025 15:40:45.478] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:flusk is
-[16Apr2025 15:40:45.479] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:miner is
-[16Apr2025 15:40:45.480] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:rotten_brain is
-[16Apr2025 15:40:45.481] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3d0eb397-de0a-3271-9aff-8fc4e429df75.json: Don't know what rotted:flusk_viscera is
-[16Apr2025 15:40:45.580] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Angeltronix7005[/127.166.77.167:35191] logged in with entity id 3 at (-33.53809579163953, 74.0, -15.26304169953978)
-[16Apr2025 15:40:45.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 joined the game
-[16Apr2025 15:40:46.637] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 3d0eb397-de0a-3271-9aff-8fc4e429df75 was loaded
-[16Apr2025 15:40:46.829] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:46.831] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:46.832] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:46.832] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:46.833] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:46.839] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:flusk
-[16Apr2025 15:40:46.839] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:46.840] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:46.840] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:46.843] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:40:46.848] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/6, l='ServerLevel[world]', x=-56.88, y=75.00, z=-0.41, removed=DISCARDED]
-[16Apr2025 15:40:46.865] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:46.884] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:46.888] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:46.910] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/16, l='ServerLevel[world]', x=-29.87, y=21.00, z=30.41, removed=DISCARDED]
-[16Apr2025 15:40:46.922] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/24, l='ServerLevel[world]', x=-41.20, y=73.00, z=-10.99, removed=DISCARDED]
-[16Apr2025 15:40:46.939] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.038] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 15:40:47.048] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:47.049] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:47.080] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:47.081] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.086] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.087] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.087] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.088] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.118] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 15:40:47.122] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:47.127] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.128] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.129] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:40:47.130] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 15:40:47.131] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.155] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.159] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:47.160] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:47.189] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/97, l='ServerLevel[world]', x=-36.52, y=73.00, z=-21.63, removed=DISCARDED]
-[16Apr2025 15:40:47.191] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/101, l='ServerLevel[world]', x=-36.70, y=73.00, z=-16.58, removed=DISCARDED]
-[16Apr2025 15:40:47.193] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/104, l='ServerLevel[world]', x=-46.36, y=73.00, z=-24.70, removed=DISCARDED]
-[16Apr2025 15:40:47.211] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/124, l='ServerLevel[world]', x=-17.44, y=70.00, z=-43.45, removed=DISCARDED]
-[16Apr2025 15:40:47.223] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/127, l='ServerLevel[world]', x=-22.66, y=72.00, z=-37.04, removed=DISCARDED]
-[16Apr2025 15:40:47.273] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.275] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:47.351] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/146, l='ServerLevel[world]', x=-54.60, y=74.00, z=-20.04, removed=DISCARDED]
-[16Apr2025 15:40:47.519] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:48.040] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 15:40:48.045] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:48.439] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:40:48.479] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:40:48.480] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:48.480] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:48.482] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:48.482] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:48.488] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 15:40:48.520] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:48.525] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:48.526] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:48.526] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:48.526] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 15:40:48.527] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:49.118] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:40:49.121] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:49.128] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:49.129] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 15:40:49.131] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:40:49.557] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:49.565] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 15:40:50.374] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/278, l='ServerLevel[world]', x=58.32, y=62.73, z=-15.95, removed=DISCARDED]
-[16Apr2025 15:40:50.507] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:40:52.283] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:52.284] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:40:53.439] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:41:03.160] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/278, l='ServerLevel[world]', x=58.32, y=62.73, z=-15.95, removed=DISCARDED]
-[16Apr2025 15:41:07.918] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:41:11.676] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:41:11.676] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 15:41:11.677] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 15:41:11.677] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:41:17.689] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/278, l='ServerLevel[world]', x=58.32, y=62.73, z=-15.95, removed=DISCARDED]
-[16Apr2025 15:41:19.791] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:41:37.092] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/278, l='ServerLevel[world]', x=58.32, y=62.73, z=-15.95, removed=DISCARDED]
-[16Apr2025 15:41:50.080] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/278, l='ServerLevel[world]', x=58.32, y=62.73, z=-15.95, removed=DISCARDED]
-[16Apr2025 15:42:53.149] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:42:53.149] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 15:42:58.336] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/124, l='ServerLevel[world]', x=-17.44, y=70.00, z=-43.45, removed=DISCARDED]
-[16Apr2025 15:43:02.150] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:flusk
-[16Apr2025 15:43:02.151] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:43:02.151] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:43:02.155] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:43:03.429] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/124, l='ServerLevel[world]', x=-17.44, y=70.00, z=-43.45, removed=DISCARDED]
-[16Apr2025 15:45:26.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Creative Mode]
-[16Apr2025 15:46:22.842] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/16, l='ServerLevel[world]', x=-29.87, y=21.00, z=30.41, removed=DISCARDED]
-[16Apr2025 15:46:26.467] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:46:26.467] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:46:26.468] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:46:29.862] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:46:29.863] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:46:29.863] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:46:30.584] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/278, l='ServerLevel[world]', x=58.32, y=62.73, z=-15.95, removed=DISCARDED]
-[16Apr2025 15:46:32.886] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/16, l='ServerLevel[world]', x=-29.87, y=21.00, z=30.41, removed=DISCARDED]
-[16Apr2025 15:46:44.939] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [rotten_flesh_to_leather:rotten_flesh_to_leather] rejected their client side version number
-[16Apr2025 15:46:44.943] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
-[16Apr2025 15:46:44.955] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@dde3a08[id=<null>,name=Ferlein,properties={},legacy=false] (/127.226.215.159:51011) lost connection: Connection closed - mismatched mod channel list
-[16Apr2025 15:46:48.929] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/278, l='ServerLevel[world]', x=58.32, y=62.73, z=-15.95, removed=DISCARDED]
-[16Apr2025 15:46:53.030] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:49:39.130] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:49:39.149] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 15:49:39.150] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:49:45.625] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/104, l='ServerLevel[world]', x=-46.36, y=73.00, z=-24.70, removed=DISCARDED]
-[16Apr2025 15:49:46.135] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/16, l='ServerLevel[world]', x=-29.87, y=21.00, z=30.41, removed=DISCARDED]
-[16Apr2025 15:49:46.624] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/146, l='ServerLevel[world]', x=-54.60, y=74.00, z=-20.04, removed=DISCARDED]
-[16Apr2025 15:49:47.270] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/6, l='ServerLevel[world]', x=-56.88, y=75.00, z=-0.41, removed=DISCARDED]
-[16Apr2025 15:49:49.286] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 15:50:26.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Survival Mode]
-[16Apr2025 15:51:21.646] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:flusk_viscera is
-[16Apr2025 15:51:21.647] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:rotten_brain is
-[16Apr2025 15:51:21.648] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:farmer is
-[16Apr2025 15:51:21.648] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:shielder is
-[16Apr2025 15:51:21.648] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:marine is
-[16Apr2025 15:51:21.649] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:flusk is
-[16Apr2025 15:51:21.649] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:adventurer is
-[16Apr2025 15:51:21.649] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:doctor is
-[16Apr2025 15:51:21.650] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:miner is
-[16Apr2025 15:51:21.650] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:farmer is
-[16Apr2025 15:51:21.650] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:marine is
-[16Apr2025 15:51:21.651] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:adventurer is
-[16Apr2025 15:51:21.651] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:flusk is
-[16Apr2025 15:51:21.651] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:rotten_brain is
-[16Apr2025 15:51:21.651] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/0e6df4b7-2964-3639-a5b2-37df6aae5bc1.json: Don't know what rotted:flusk_viscera is
-[16Apr2025 15:51:21.684] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ferlein[/127.226.215.159:48955] logged in with entity id 2586 at (-361.69999998807907, 75.0, -316.00254579227186)
-[16Apr2025 15:51:21.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein joined the game
-[16Apr2025 15:51:22.037] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.037] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.039] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:flusk
-[16Apr2025 15:51:22.041] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.041] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.041] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 15:51:22.042] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.047] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.048] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.048] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.061] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.088] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 15:51:22.089] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 15:51:22.091] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 15:51:22.110] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.111] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.111] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:22.111] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.113] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.114] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:22.117] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.124] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.125] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.125] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.180] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.214] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:flusk
-[16Apr2025 15:51:22.215] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.255] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.327] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:22.327] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:22.327] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.327] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.348] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.356] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:22.361] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:22.389] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 15:51:22.407] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.408] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.408] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.408] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.409] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.410] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:22.410] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:22.561] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.586] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.586] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.587] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:22.663] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.805] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 15:51:22.805] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:22.856] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was loaded
-[16Apr2025 15:51:23.007] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 15:51:23.017] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:23.018] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:23.018] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:23.018] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
-[16Apr2025 15:51:23.018] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 15:51:23.061] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 15:51:29.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> wenas
-[16Apr2025 15:51:34.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Angeltronix7005 to Ferlein]
-[16Apr2025 15:51:34.936] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 15:51:34.937] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 15:51:34.937] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 15:51:56.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> eres negro
-[16Apr2025 15:52:07.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> hasta ahora te das cuenta?
-[16Apr2025 15:52:08.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> xd
-[16Apr2025 15:52:09.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> miraaaaaaa
-[16Apr2025 15:52:25.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> lo que me soltó ese zombie del mod que eliminé
-[16Apr2025 15:52:55.750] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:crafting in 2.626 ms. 1470/1528 recipes are parallelized.
-[16Apr2025 15:53:06.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ya no hay de que preocuparse
-[16Apr2025 15:53:16.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ya no hay tantos zombies?
-[16Apr2025 15:53:20.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ya eliminé ese mod
-[16Apr2025 15:53:34.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> Amor eso me estaban persiguiendo como 30 entidades en horda
-[16Apr2025 15:53:46.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> como se hace esooooo
-[16Apr2025 15:54:02.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> saltas
-[16Apr2025 15:54:06.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> click derecho
-[16Apr2025 15:54:08.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> y saltas
-[16Apr2025 15:54:47.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[16Apr2025 15:54:47.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: l<--[HERE]
-[16Apr2025 15:57:08.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> este lugar no me gusta para construir
-[16Apr2025 15:57:25.066] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 15:57:26.899] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 15:57:29.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> comoooo
-[16Apr2025 15:57:31.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> con c
-[16Apr2025 15:57:36.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> mientras core}res
-[16Apr2025 15:57:44.170] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 15:57:50.548] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 15:58:09.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> mañana en la mañana salimos a buscar un buen lugar
-[16Apr2025 15:58:43.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set the weather to clear]
-[16Apr2025 15:59:23.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> cubreme
-[16Apr2025 15:59:51.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Suit Up]
-[16Apr2025 16:01:18.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> vamos
-[16Apr2025 16:03:01.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> wenas
-[16Apr2025 16:03:06.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> holi
-[16Apr2025 16:03:08.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> vamos a un buen lugar o que?
-[16Apr2025 16:03:09.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> :3
-[16Apr2025 16:03:30.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no tengo comida
-[16Apr2025 16:03:57.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> asi gastas mas muslitos
-[16Apr2025 16:04:03.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> gasto estamina
-[16Apr2025 16:04:06.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no muslitos
-[16Apr2025 16:04:18.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> esa estima es el reflejo de los muslitos
-[16Apr2025 16:04:26.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ño
-[16Apr2025 16:04:34.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> vamonos
-[16Apr2025 16:04:36.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> te sigo
-[16Apr2025 16:04:49.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> xd
-[16Apr2025 16:04:55.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> komoo
-[16Apr2025 16:04:57.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> te digo como se hace
-[16Apr2025 16:05:00.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> no explicas -.-
-[16Apr2025 16:05:02.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> preciona a y d a la vez
-[16Apr2025 16:05:14.002] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 16:05:23.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> di
-[16Apr2025 16:05:28.852] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 16:05:32.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> en primera persona no pasa nada
-[16Apr2025 16:05:37.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pues no se ve
-[16Apr2025 16:05:39.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> pero en tercera si se ve xD
-[16Apr2025 16:05:40.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pero si te sale
-[16Apr2025 16:05:44.903] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 16:05:46.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> vamos
-[16Apr2025 16:05:54.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> te sigo
-[16Apr2025 16:05:56.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> la verdad me gustó mucho la zona de spawn
-[16Apr2025 16:06:27.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> esa montaña se ve buena para quitar
-[16Apr2025 16:06:31.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> 7.7
-[16Apr2025 16:06:32.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> xdxdxdxd
-[16Apr2025 16:07:09.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> aca
-[16Apr2025 16:07:11.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> me perdi
-[16Apr2025 16:07:44.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> si aca
-[16Apr2025 16:07:51.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> weño
-[16Apr2025 16:07:57.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tienes cofre?
-[16Apr2025 16:08:10.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> no
-[16Apr2025 16:08:47.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> voy a minar entonces
-[16Apr2025 16:09:03.804] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:09:03.904] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:10:05.043] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:stonecutting in 114.0 μs. 201/201 recipes are parallelized.
-[16Apr2025 16:10:14.260] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-253, y=72, z=-279} BlockPos{x=-254, y=70, z=-278}
-[16Apr2025 16:10:22.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> mira esto
-[16Apr2025 16:10:25.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> donde estas?
-[16Apr2025 16:10:37.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> en mina
-[16Apr2025 16:10:43.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> hasme tp
-[16Apr2025 16:10:54.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
-[16Apr2025 16:11:17.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> pon el mouse encima del bloque
-[16Apr2025 16:11:29.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> y luego shift click derecho
-[16Apr2025 16:11:31.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ohhhh
-[16Apr2025 16:11:41.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> sirbe con cofres?
-[16Apr2025 16:11:56.456] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:11:56.656] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:12:12.057] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:12:14.641] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:13:21.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzz
-[16Apr2025 16:13:21.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 has made the advancement [Sweet Dreams]
-[16Apr2025 16:13:34.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 has made the advancement [Monster Hunter]
-[16Apr2025 16:13:37.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzz
-[16Apr2025 16:13:59.907] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:14:00.192] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:14:16.741] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:14:16.993] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:14:27.642] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:14:28.542] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:14:29.241] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:15:38.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> NO SIRVE CON COFRES
-[16Apr2025 16:15:41.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ni hornos
-[16Apr2025 16:15:46.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ño
-[16Apr2025 16:15:52.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pero si con mesa de crafteo
-[16Apr2025 16:15:53.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> por cierto metí un mods de cofres
-[16Apr2025 16:16:07.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> que permite clasificar los items dentro de el
-[16Apr2025 16:17:03.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> oh
-[16Apr2025 16:17:11.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> necesito roca
-[16Apr2025 16:17:12.698] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:17:12.746] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:17:19.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> quiero empezar a delimitar las zonas
-[16Apr2025 16:17:22.492] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:17:22.592] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:18:09.700] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:18:09.940] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:18:19.249] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:18:20.035] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:18:37.148] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:18:37.339] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:19:34.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> rocaaaaaa
-[16Apr2025 16:19:44.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> crees que la roca sale de la nada?
-[16Apr2025 16:19:51.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> pero de tu amor shi
-[16Apr2025 16:20:22.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp
-[16Apr2025 16:20:32.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
-[16Apr2025 16:21:02.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no tenog ni pico pa conseguir piedra xd
-[16Apr2025 16:21:17.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Isn't It Iron Pick]
-[16Apr2025 16:21:27.396] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:21:27.846] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:22:40.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> y la roca?
-[16Apr2025 16:22:48.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> apenas tengo un pico bb
-[16Apr2025 16:22:56.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> xd
-[16Apr2025 16:23:08.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ya tienes roca?
-[16Apr2025 16:23:11.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ok no xD
-[16Apr2025 16:23:11.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> si
-[16Apr2025 16:25:32.991] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:25:33.236] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:25:43.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp
-[16Apr2025 16:25:52.848] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:25:53.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
-[16Apr2025 16:26:01.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> suficiente?
-[16Apr2025 16:26:07.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> no
-[16Apr2025 16:26:09.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ok no xD
-[16Apr2025 16:26:12.050] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:26:24.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> wzzzzzzzzzzzzzzzz
-[16Apr2025 16:26:25.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzzz
-[16Apr2025 16:26:26.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzz
-[16Apr2025 16:26:27.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzz
-[16Apr2025 16:26:28.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzz
-[16Apr2025 16:26:30.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzz
-[16Apr2025 16:26:32.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzz
-[16Apr2025 16:26:33.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zz
-[16Apr2025 16:26:34.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> z
-[16Apr2025 16:26:46.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> JAJAJAJAJAJA
-[16Apr2025 16:27:03.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> asi o mas grande?
-[16Apr2025 16:27:05.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tienes hierro?
-[16Apr2025 16:27:20.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ci
-[16Apr2025 16:27:37.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> así o mas grande?
-[16Apr2025 16:27:47.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> mira esto
-[16Apr2025 16:27:53.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> moscas
-[16Apr2025 16:27:55.387] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:27:55.589] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:28:02.201] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:28:02.351] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:28:46.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> así o mas grande
-[16Apr2025 16:28:48.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ?
-[16Apr2025 16:28:50.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> si
-[16Apr2025 16:28:54.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> si que?
-[16Apr2025 16:28:56.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> :3
-[16Apr2025 16:29:00.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ahhhh si ves?
-[16Apr2025 16:29:03.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no es logica
-[16Apr2025 16:29:04.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> xd
-[16Apr2025 16:29:08.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> no puedo
-[16Apr2025 16:29:13.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> sin mis gafas no puedo ver
-[16Apr2025 16:29:15.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> asi esta bien bb
-[16Apr2025 16:29:19.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pontelas
-[16Apr2025 16:29:25.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> luego te da dolor de cabeza
-[16Apr2025 16:29:40.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> y la unica cabeza que te va a doler es la de abajo de tantas chupadas que te voy a dar
-[16Apr2025 16:29:47.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> amen
-[16Apr2025 16:31:33.858] [Worker-Main-35/INFO] [ModernFix/]: Instantiating Mojang DFU
-[16Apr2025 16:34:01.504] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:34:01.604] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:34:56.496] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:flusk
-[16Apr2025 16:34:59.795] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
-[16Apr2025 16:35:04.524] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
-[16Apr2025 16:35:04.524] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 16:35:04.524] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 16:35:04.524] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 16:35:54.155] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:36:56.451] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
-[16Apr2025 16:36:56.451] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
-[16Apr2025 16:36:56.454] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 16:36:56.454] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
-[16Apr2025 16:37:27.061] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:37:35.706] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:37:43.206] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:38:08.409] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:smelting in 212.1 μs. 218/218 recipes are parallelized.
-[16Apr2025 16:38:46.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Not Today, Thank You]
-[16Apr2025 16:38:59.309] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:39:02.756] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:39:33.109] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/146, l='ServerLevel[world]', x=-54.60, y=74.00, z=-20.04, removed=DISCARDED]
-[16Apr2025 16:39:33.758] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/104, l='ServerLevel[world]', x=-46.36, y=73.00, z=-24.70, removed=DISCARDED]
-[16Apr2025 16:39:49.908] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:39:58.158] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:40:01.608] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:40:05.008] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/172, l='ServerLevel[world]', x=-66.50, y=53.00, z=-64.16, removed=DISCARDED]
-[16Apr2025 16:40:26.408] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/146, l='ServerLevel[world]', x=-54.60, y=74.00, z=-20.04, removed=DISCARDED]
-[16Apr2025 16:40:27.108] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/104, l='ServerLevel[world]', x=-46.36, y=73.00, z=-24.70, removed=DISCARDED]
-[16Apr2025 16:41:13.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> me haces tp?
-[16Apr2025 16:41:21.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
-[16Apr2025 16:41:49.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein was slain by Equestrian
-[16Apr2025 16:42:46.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzz
-[16Apr2025 16:43:25.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> peldon
-[16Apr2025 16:44:28.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Voluntary Exile]
-[16Apr2025 16:44:50.413] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:44:50.447] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:46:24.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[16Apr2025 16:46:24.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: l<--[HERE]
-[16Apr2025 16:47:28.199] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:47:28.549] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:47:35.099] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:47:35.348] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:47:44.799] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 16:47:45.249] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 16:49:35.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ahora necesito algo para hacer combustion :v
-[16Apr2025 16:50:00.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp
-[16Apr2025 16:50:09.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
-[16Apr2025 16:50:19.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> busco algas?
-[16Apr2025 16:50:31.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ci
-[16Apr2025 16:51:30.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> tan bonito te ves viajando en bote
-[16Apr2025 16:51:41.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> yo busco lo que mi amorcito pida
-[16Apr2025 16:51:42.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> amor ven
-[16Apr2025 16:51:54.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ven
-[16Apr2025 16:51:59.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> veeeeeeeeeeeeeeeeeeeeeennnnnnnnnn
-[16Apr2025 16:52:00.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> aaaaaaaaaaaaa
-[16Apr2025 16:52:01.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> voy
-[16Apr2025 16:52:20.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ya llegue
-[16Apr2025 16:52:41.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ahhhhhh
-[16Apr2025 16:52:47.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> :V
-[16Apr2025 16:54:53.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp
-[16Apr2025 16:55:07.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
-[16Apr2025 16:59:05.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> aqui no esta el crafter
-[16Apr2025 17:00:40.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzzzz
-[16Apr2025 17:00:47.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> detonado
-[16Apr2025 17:00:53.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> rico
-[16Apr2025 17:00:56.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> a ver otra vez
-[16Apr2025 17:01:28.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> *se corre*
-[16Apr2025 17:01:30.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> adadads
-[16Apr2025 17:02:25.105] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 17:02:25.155] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 17:02:33.257] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 17:02:33.405] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 17:02:39.699] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 17:02:45.505] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 17:02:45.555] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 17:02:48.190] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 17:02:48.342] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 17:02:53.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> dio perla?
-[16Apr2025 17:02:55.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ño
-[16Apr2025 17:03:59.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[16Apr2025 17:03:59.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: l<--[HERE]
-[16Apr2025 17:04:37.106] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 17:04:37.257] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 17:07:07.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> me dejas hacer granja de algas?
-[16Apr2025 17:10:09.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> lo tomare como un si
-[16Apr2025 17:11:03.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Diamonds!]
-[16Apr2025 17:13:50.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp bb
-[16Apr2025 17:13:52.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> potfa
-[16Apr2025 17:13:54.062] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 17:13:55.262] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 17:13:55.862] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2684, l='ServerLevel[world]', x=-405.01, y=0.00, z=-395.46, removed=DISCARDED]
-[16Apr2025 17:14:24.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> bb
-[16Apr2025 17:14:28.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tp
-[16Apr2025 17:20:00.436] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ferlein lost connection: Disconnected
-[16Apr2025 17:20:00.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein left the game
-[16Apr2025 17:20:00.438] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was unloaded
-[16Apr2025 17:21:45.110] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ferlein[/127.226.215.159:56475] logged in with entity id 21531 at (-323.69999998807907, -52.0, -317.6143106290348)
-[16Apr2025 17:21:45.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein joined the game
-[16Apr2025 17:21:45.141] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2604, l='ServerLevel[world]', x=-361.99, y=72.00, z=-313.75, removed=DISCARDED]
-[16Apr2025 17:21:45.144] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/2602, l='ServerLevel[world]', x=-361.13, y=71.00, z=-314.33, removed=DISCARDED]
-[16Apr2025 17:21:45.426] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was loaded
-[16Apr2025 17:21:51.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to Angeltronix7005]
-[16Apr2025 17:21:57.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> HOMBREEEEEEESSSSSSS
-[16Apr2025 17:21:58.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 has made the advancement [Diamonds!]
-[16Apr2025 17:22:32.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> Y esto?
-[16Apr2025 17:22:34.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> voy a almorzar bb
-[16Apr2025 17:22:39.085] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ferlein lost connection: Disconnected
-[16Apr2025 17:22:39.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein left the game
-[16Apr2025 17:22:39.085] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was unloaded
-[16Apr2025 17:22:42.733] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Angeltronix7005 lost connection: Disconnected
-[16Apr2025 17:22:42.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 left the game
-[16Apr2025 17:22:42.734] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 3d0eb397-de0a-3271-9aff-8fc4e429df75 was unloaded
-[16Apr2025 17:22:50.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[16Apr2025 17:22:50.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[16Apr2025 17:22:50.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[16Apr2025 17:22:50.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[16Apr2025 17:22:50.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16Apr2025 17:22:50.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16Apr2025 17:22:50.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16Apr2025 17:22:50.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16Apr2025 17:22:50.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16Apr2025 17:22:50.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16Apr2025 17:22:50.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Apr2025 01:09:40.540] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2443 advancements
+[18Apr2025 01:09:40.554] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[18Apr2025 01:09:40.586] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[18Apr2025 01:09:40.604] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_flutterfly
+[18Apr2025 01:09:40.750] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[18Apr2025 01:09:40.752] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Apr2025 01:09:40.752] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Apr2025 01:09:40.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Apr2025 01:09:40.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Apr2025 01:09:40.979] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[18Apr2025 01:09:41.141] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18Apr2025 01:09:41.141] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18Apr2025 01:09:41.142] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18Apr2025 01:09:41.142] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18Apr2025 01:09:41.244] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Apr2025 01:09:41.901] [Netty Epoll Server IO #1/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[18Apr2025 01:09:41.910] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[18Apr2025 01:09:41.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Apr2025 01:09:42.004] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 89 ms
+[18Apr2025 01:09:42.005] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.846s)! For help, type "help"
+[18Apr2025 01:09:42.133] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18Apr2025 01:09:42.137] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[18Apr2025 01:09:42.139] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: limitedchunks.json
+[18Apr2025 01:09:42.142] [Server thread/WARN] [ModernFix/]: Dedicated server took 35.852 seconds to load
+[18Apr2025 01:09:46.370] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ferlein[/127.226.215.159:47683] logged in with entity id 1 at (-243.74844268157463, 71.0, -269.30017613376816)
+[18Apr2025 01:09:46.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein joined the game
+[18Apr2025 01:09:47.477] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was loaded
+[18Apr2025 01:09:48.303] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Angeltronix7005[/127.166.77.167:33267] logged in with entity id 69 at (-244.31305455536352, 71.0, -267.7537918579491)
+[18Apr2025 01:09:48.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 joined the game
+[18Apr2025 01:09:49.054] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 3d0eb397-de0a-3271-9aff-8fc4e429df75 was loaded
+[18Apr2025 01:10:01.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> wenas
+[18Apr2025 01:10:07.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> weñas weñas
+[18Apr2025 01:11:16.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> discord
+[18Apr2025 01:11:32.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> voy
+[18Apr2025 01:12:44.310] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:farmer is
+[18Apr2025 01:12:44.311] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:doctor is
+[18Apr2025 01:12:44.311] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:shielder is
+[18Apr2025 01:12:44.311] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:marine is
+[18Apr2025 01:12:44.312] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:flusk is
+[18Apr2025 01:12:44.312] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:adventurer is
+[18Apr2025 01:12:44.312] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:miner is
+[18Apr2025 01:12:44.313] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:adventurer is
+[18Apr2025 01:12:44.313] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:miner is
+[18Apr2025 01:12:44.315] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/4b84e15c-b816-3db6-9423-99e1b59e97fb.json: Don't know what rotted:rotten_brain is
+[18Apr2025 01:12:44.368] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JustRaptor[/127.75.255.182:49111] logged in with entity id 738 at (123.69999998807907, -11.0, -276.6884703673289)
+[18Apr2025 01:12:44.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor joined the game
+[18Apr2025 01:12:44.981] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
+[18Apr2025 01:12:45.133] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 4b84e15c-b816-3db6-9423-99e1b59e97fb was loaded
+[18Apr2025 01:12:45.215] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:marine
+[18Apr2025 01:12:45.296] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
+[18Apr2025 01:12:45.479] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
+[18Apr2025 01:12:45.695] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
+[18Apr2025 01:12:45.695] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
+[18Apr2025 01:12:45.697] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
+[18Apr2025 01:12:45.700] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
+[18Apr2025 01:12:45.701] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:miner
+[18Apr2025 01:12:45.702] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:adventurer
+[18Apr2025 01:12:45.944] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
+[18Apr2025 01:12:45.944] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:doctor
+[18Apr2025 01:12:46.171] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:farmer
+[18Apr2025 01:12:46.191] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id rotted:shielder
+[18Apr2025 01:12:56.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported JustRaptor to Angeltronix7005]
+[18Apr2025 01:14:09.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Gamerule keepInventory is now set to: true]
+[18Apr2025 01:14:17.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor was killed
+[18Apr2025 01:14:17.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Killed JustRaptor]
+[18Apr2025 01:14:48.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Gamerule keepInventory is now set to: false]
+[18Apr2025 01:14:49.511] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:crafting in 2.607 ms. 1470/1528 recipes are parallelized.
+[18Apr2025 01:16:00.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no hay mas hierro?
+[18Apr2025 01:17:20.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> lo quito porque no queria una base subterranea
+[18Apr2025 01:17:26.319] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:smelting in 166.9 μs. 218/218 recipes are parallelized.
+[18Apr2025 01:18:14.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Diamonds!]
+[18Apr2025 01:18:28.470] [Worker-Main-17/INFO] [ModernFix/]: Instantiating Mojang DFU
+[18Apr2025 01:18:38.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzzzzz
+[18Apr2025 01:18:53.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz

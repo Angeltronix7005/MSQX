@@ -1308,15 +1308,21 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+  "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
-      "has_pumpkin": "2025-04-16 04:14:07 +0000"
+      "has_raw_iron": "2025-04-16 03:55:05 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_axe": {
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+      "has_raw_iron": "2025-04-16 03:55:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-04-16 03:55:05 +0000"
     },
     "done": true
   },
@@ -1326,75 +1332,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_pickaxe": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_iron_block": {
-    "criteria": {
-      "has_raw_iron": "2025-04-16 03:55:05 +0000"
-    },
-    "done": true
-  },
-  "l2weaponry:recipes/tools/generated/craft/gold_machete_enchanted": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
   "storagedrawers:recipes/storagedrawers/jungle_drawers": {
     "criteria": {
       "has_chest": "2025-04-16 04:00:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_shovel": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2025-04-16 04:25:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/golden_apple": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-04-16 04:07:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_boots": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "l2weaponry:recipes/tools/generated/craft/gold_battle_axe_enchanted": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
     },
     "done": true
   },
@@ -1404,36 +1344,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2025-04-16 04:14:07 +0000"
-    },
-    "done": true
-  },
   "storagedrawers:recipes/storagedrawers/dark_oak_drawers": {
     "criteria": {
       "has_chest": "2025-04-16 04:00:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:pillager": "2025-04-16 04:13:00 +0000",
-      "minecraft:silverfish": "2025-04-16 04:25:07 +0000",
-      "minecraft:zombie": "2025-04-16 04:18:02 +0000",
-      "minecraft:drowned": "2025-04-16 04:22:05 +0000"
-    },
-    "done": false
-  },
-  "farmersdelight:recipes/cooking/pumpkin_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-04-16 04:14:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_chestplate": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
     },
     "done": true
   },
@@ -1455,21 +1368,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/golden_knife": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
   "storagedrawers:recipes/storagedrawers/crimson_drawers": {
     "criteria": {
       "has_chest": "2025-04-16 04:00:21 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/apple_cider": {
-    "criteria": {
-      "has_apple": "2025-04-16 04:14:00 +0000"
     },
     "done": true
   },
@@ -1479,27 +1380,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
   "storagedrawers:recipes/storagedrawers/spruce_drawers": {
     "criteria": {
       "has_chest": "2025-04-16 04:00:21 +0000"
     },
     "done": true
   },
-  "enemyexpansion:vampire_slayer": {
+  "storagedrawers:recipes/storagedrawers/warped_drawers": {
     "criteria": {
-      "vampire_slayer_0": "2025-04-16 04:18:52 +0000"
+      "has_chest": "2025-04-16 04:00:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/pumpkin_pie": {
+  "storagedrawers:recipes/storagedrawers/oak_drawers": {
     "criteria": {
-      "has_pumpkin": "2025-04-16 04:14:07 +0000"
+      "has_chest": "2025-04-16 04:00:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-04-16 04:07:30 +0000"
     },
     "done": true
   },
@@ -1509,9 +1410,42 @@
     },
     "done": true
   },
-  "l2weaponry:recipes/tools/generated/craft/gold_javelin_enchanted": {
+  "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+      "has_raw_gold": "2025-04-16 04:07:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-04-16 04:07:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-04-16 04:07:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:pillager": "2025-04-16 04:13:00 +0000",
+      "minecraft:silverfish": "2025-04-16 04:25:07 +0000",
+      "minecraft:zombie": "2025-04-16 04:18:02 +0000",
+      "minecraft:drowned": "2025-04-16 04:22:05 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:pillager": "2025-04-16 04:13:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-04-16 04:14:00 +0000"
     },
     "done": true
   },
@@ -1521,15 +1455,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
+  "minecraft:recipes/tools/golden_axe": {
     "criteria": {
-      "has_raw_gold": "2025-04-16 04:07:30 +0000"
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+  "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
-      "has_raw_iron": "2025-04-16 03:55:05 +0000"
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/gold_machete_enchanted": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/gold_battle_axe_enchanted": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/gold_javelin_enchanted": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
     },
     "done": true
   },
@@ -1548,18 +1548,6 @@
   "l2weaponry:recipes/tools/generated/craft/gold_spear_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2025-04-16 04:25:44 +0000"
-    },
-    "done": true
-  },
-  "storagedrawers:recipes/storagedrawers/warped_drawers": {
-    "criteria": {
-      "has_chest": "2025-04-16 04:00:21 +0000"
     },
     "done": true
   },
@@ -1605,45 +1593,9 @@
     },
     "done": true
   },
-  "storagedrawers:recipes/storagedrawers/oak_drawers": {
-    "criteria": {
-      "has_chest": "2025-04-16 04:00:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-04-16 04:16:10 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/ratatouille": {
-    "criteria": {
-      "has_any_ingredient": "2025-04-16 04:25:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
-    "criteria": {
-      "has_raw_iron": "2025-04-16 03:55:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:pillager": "2025-04-16 04:13:00 +0000"
-    },
-    "done": true
-  },
   "l2weaponry:recipes/tools/generated/craft/gold_plate_shield_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-16 04:14:01 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2025-04-16 04:25:44 +0000"
     },
     "done": true
   },
@@ -1659,33 +1611,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2025-04-16 04:07:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2025-04-16 04:07:58 +0000"
-    },
-    "done": true
-  },
   "l2weaponry:recipes/tools/generated/craft/gold_hammer_enchanted": {
     "criteria": {
       "has_gold_ingot": "2025-04-16 04:14:01 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-04-16 04:14:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-04-16 04:14:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-16 04:14:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-04-16 04:14:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-04-16 04:16:10 +0000"
+    },
+    "done": true
+  },
+  "enemyexpansion:vampire_slayer": {
+    "criteria": {
+      "vampire_slayer_0": "2025-04-16 04:18:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-04-16 04:25:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-04-16 04:25:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
     "criteria": {
       "has_any_ingredient": "2025-04-16 04:25:44 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_leggings": {
+  "farmersdelight:recipes/cooking/beetroot_soup": {
     "criteria": {
-      "has_gold_ingot": "2025-04-16 04:14:01 +0000"
+      "has_beetroot": "2025-04-16 04:25:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-16 04:25:44 +0000"
     },
     "done": true
   },
