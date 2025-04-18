@@ -836,6 +836,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-04-18 01:59:52 +0000",
+      "cooked_mutton": "2025-04-18 15:06:10 +0000",
       "cooked_beef": "2025-04-16 16:03:42 +0000",
       "beef": "2025-04-16 04:01:26 +0000",
       "porkchop": "2025-04-16 04:01:11 +0000",
@@ -2579,6 +2580,30 @@
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2025-04-18 02:29:25 +0000"
+    },
+    "done": true
+  },
+  "l2complements:recipes/burnt/burnt/cooked_mutton": {
+    "criteria": {
+      "has_cooked_mutton": "2025-04-18 15:06:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-04-18 15:06:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-04-18 15:06:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-04-18 15:06:08 +0000"
     },
     "done": true
   },
