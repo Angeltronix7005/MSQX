@@ -369,3 +369,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18Apr2025 02:30:47.609] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ferlein lost connection: Disconnected
 [18Apr2025 02:30:47.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein left the game
 [18Apr2025 02:30:47.610] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 0e6df4b7-2964-3639-a5b2-37df6aae5bc1 was unloaded
+[18Apr2025 02:51:14.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [What a Deal!]
