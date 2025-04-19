@@ -282,3 +282,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 03:57:23.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> creo que si
 [19Apr2025 03:57:28.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> el arroz era en agua
 [19Apr2025 03:57:45.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> los tomates normal
+[19Apr2025 04:00:05.926] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:smelting in 176.0 μs. 218/218 recipes are parallelized.
+[19Apr2025 04:01:50.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> necesitass mucha piedra?
+[19Apr2025 04:01:53.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> di
