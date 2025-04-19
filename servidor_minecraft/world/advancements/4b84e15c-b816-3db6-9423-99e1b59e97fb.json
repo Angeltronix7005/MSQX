@@ -13,7 +13,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-04-19 04:25:34 +0000",
+      "minecraft:birch_forest": "2025-04-19 04:22:20 +0000",
       "minecraft:beach": "2025-04-16 03:16:08 +0000",
+      "minecraft:dark_forest": "2025-04-19 04:24:47 +0000",
       "minecraft:river": "2025-04-16 03:16:12 +0000",
       "minecraft:snowy_plains": "2025-04-18 01:30:05 +0000",
       "minecraft:stony_shore": "2025-04-19 04:14:03 +0000",
@@ -21,6 +24,7 @@
       "minecraft:forest": "2025-04-16 03:19:56 +0000",
       "minecraft:ocean": "2025-04-19 04:16:21 +0000",
       "minecraft:flower_forest": "2025-04-19 04:16:20 +0000",
+      "minecraft:old_growth_birch_forest": "2025-04-19 04:25:25 +0000",
       "minecraft:meadow": "2025-04-19 04:12:56 +0000",
       "minecraft:plains": "2025-04-16 03:13:32 +0000"
     },
@@ -354,6 +358,7 @@
     "criteria": {
       "apple": "2025-04-16 04:23:33 +0000",
       "golden_apple": "2025-04-16 03:31:14 +0000",
+      "bread": "2025-04-19 04:19:39 +0000",
       "rotten_flesh": "2025-04-16 03:18:29 +0000",
       "cooked_salmon": "2025-04-16 03:39:32 +0000"
     },
@@ -1437,6 +1442,7 @@
     "criteria": {
       "minecraft:pillager": "2025-04-16 04:13:00 +0000",
       "minecraft:skeleton": "2025-04-18 01:21:18 +0000",
+      "minecraft:vindicator": "2025-04-19 04:18:19 +0000",
       "minecraft:spider": "2025-04-18 01:20:43 +0000",
       "minecraft:creeper": "2025-04-18 01:27:25 +0000",
       "minecraft:silverfish": "2025-04-16 04:25:07 +0000",

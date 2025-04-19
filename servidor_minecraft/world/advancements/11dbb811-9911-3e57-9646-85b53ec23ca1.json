@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-04-19 04:25:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_shovel": "2025-04-19 03:22:04 +0000"
@@ -302,6 +308,12 @@
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2025-04-19 03:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-04-19 04:25:13 +0000"
     },
     "done": true
   },
@@ -959,6 +971,12 @@
   "storagedrawers:recipes/storagedrawers/portability_upgrade": {
     "criteria": {
       "has_template": "2025-04-19 03:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-04-19 04:25:13 +0000"
     },
     "done": true
   },

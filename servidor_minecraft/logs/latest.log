@@ -289,3 +289,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 04:13:36.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> bb me haces tp a raptor?
 [19Apr2025 04:13:51.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to JustRaptor]
 [19Apr2025 04:16:14.779] [Worker-Main-1/INFO] [ModernFix/]: Instantiating Mojang DFU
+[19Apr2025 04:25:17.141] [Worker-Main-59/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[19Apr2025 04:26:03.882] [Worker-Main-59/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[19Apr2025 04:27:20.826] [Worker-Main-68/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[19Apr2025 04:27:21.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> alguno tiene roble oscuro?
+[19Apr2025 04:27:30.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> quizas si quizas no
+[19Apr2025 04:27:35.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> -.-
+[19Apr2025 04:27:40.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> 7.7
+[19Apr2025 04:27:44.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> 7.7
