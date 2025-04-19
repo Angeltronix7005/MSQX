@@ -337,3 +337,14 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 04:46:36.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <JustRaptor> re
 [19Apr2025 04:47:00.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> barra ban?
 [19Apr2025 04:47:16.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <JustRaptor> a un tal Angeltronix
+[19Apr2025 04:51:39.188] [Worker-Main-68/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[19Apr2025 04:52:52.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Take Aim]
+[19Apr2025 04:55:15.077] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-272, y=71, z=-288} BlockPos{x=-272, y=69, z=-288}
+[19Apr2025 04:55:58.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-275, y=69, z=-297} BlockPos{x=-275, y=68, z=-294}
+[19Apr2025 04:56:12.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein fell from a high place
+[19Apr2025 04:56:21.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> bb tp
+[19Apr2025 04:56:22.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ayyyy
+[19Apr2025 04:56:23.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> a donde raptor
+[19Apr2025 04:56:32.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pero ya
+[19Apr2025 04:56:33.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to JustRaptor]
+[19Apr2025 04:58:43.623] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-275, y=70, z=-286} BlockPos{x=-273, y=69, z=-286}

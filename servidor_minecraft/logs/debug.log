@@ -4706,3 +4706,21 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 04:47:16.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <JustRaptor> a un tal Angeltronix
 [19Apr2025 04:48:27.138] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [19Apr2025 04:48:27.150] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Apr2025 04:49:13.150] [Worker-Main-68/DEBUG] [ModernFix/]: Structure nova_structures:wild_ruin/wild_ruin_17 is being run through DFU (hash 8c678a1516a24e6ac364b6b88c322dd04470a6d2486ac05bed12a38345207130), this will cause launch time delays
+[19Apr2025 04:49:28.482] [Worker-Main-68/DEBUG] [ModernFix/]: Structure nova_structures:undead_crypt/undead_crypt_stairs is being run through DFU (hash dea1325540f0ec30eea9534a6cde9dc4027666428e9a3eb79d859e3a93145eb9), this will cause launch time delays
+[19Apr2025 04:49:28.529] [Worker-Main-68/DEBUG] [ModernFix/]: Structure nova_structures:undead_crypt/undead_crypt_room_lock is being run through DFU (hash c1c40c34fa3a5cf4d12a59088ad0241be382501c83cee61fa746efbf75796a6a), this will cause launch time delays
+[19Apr2025 04:51:39.188] [Worker-Main-68/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[19Apr2025 04:52:52.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Take Aim]
+[19Apr2025 04:53:27.136] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Apr2025 04:53:27.144] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Apr2025 04:55:15.077] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-272, y=71, z=-288} BlockPos{x=-272, y=69, z=-288}
+[19Apr2025 04:55:58.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-275, y=69, z=-297} BlockPos{x=-275, y=68, z=-294}
+[19Apr2025 04:56:12.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein fell from a high place
+[19Apr2025 04:56:21.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> bb tp
+[19Apr2025 04:56:22.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> ayyyy
+[19Apr2025 04:56:23.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> a donde raptor
+[19Apr2025 04:56:32.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pero ya
+[19Apr2025 04:56:33.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to JustRaptor]
+[19Apr2025 04:58:27.138] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Apr2025 04:58:27.147] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Apr2025 04:58:43.623] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-275, y=70, z=-286} BlockPos{x=-273, y=69, z=-286}
