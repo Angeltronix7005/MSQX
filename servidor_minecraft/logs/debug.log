@@ -4302,3 +4302,31 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 03:47:49.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> listo
 [19Apr2025 03:47:54.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> arreglado
 [19Apr2025 03:47:57.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> nais
+[19Apr2025 03:48:17.952] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Apr2025 03:48:17.960] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Apr2025 03:48:34.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ven
+[19Apr2025 03:48:37.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> te explico
+[19Apr2025 03:48:44.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> en este cofre
+[19Apr2025 03:48:47.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pones combustible
+[19Apr2025 03:48:56.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> shi?
+[19Apr2025 03:48:57.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> y el sistema se encarga de alimentar los hornos
+[19Apr2025 03:49:05.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> oki
+[19Apr2025 03:49:06.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> prendes la palanca y lo distribuye
+[19Apr2025 03:49:08.509] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/8576, l='ServerLevel[world]', x=-317.45, y=66.00, z=9.13] died, message: 'Villager was slain by Sprinter'
+[19Apr2025 03:50:42.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> los de los lados para cocinar cantidades grandes
+[19Apr2025 03:50:48.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> los del medio para cantidades pequeñas
+[19Apr2025 03:52:27.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> voy a por piedra
+[19Apr2025 03:52:30.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> se nos acabó
+[19Apr2025 03:52:52.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> yo voy
+[19Apr2025 03:52:55.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> por la piedra
+[19Apr2025 03:52:59.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> tu tranquis
+[19Apr2025 03:53:07.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> oki
+[19Apr2025 03:53:17.945] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Apr2025 03:53:17.950] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Apr2025 03:54:30.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [The Parrots and the Bats]
+[19Apr2025 03:57:05.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <JustRaptor> como se plantaban los tomates?
+[19Apr2025 03:57:15.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <JustRaptor> normal?
+[19Apr2025 03:57:21.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> ya no me acuerdo
+[19Apr2025 03:57:23.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> creo que si
+[19Apr2025 03:57:28.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> el arroz era en agua
+[19Apr2025 03:57:45.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> los tomates normal
