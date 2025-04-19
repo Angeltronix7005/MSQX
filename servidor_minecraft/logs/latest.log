@@ -348,3 +348,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 04:56:32.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> pero ya
 [19Apr2025 04:56:33.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to JustRaptor]
 [19Apr2025 04:58:43.623] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-275, y=70, z=-286} BlockPos{x=-273, y=69, z=-286}
+[19Apr2025 05:01:19.069] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:stonecutting in 119.2 μs. 201/201 recipes are parallelized.
+[19Apr2025 05:06:24.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sasuke6525 has made the advancement [Diamonds!]
+[19Apr2025 05:07:08.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> resumen del server, 20 aldeas y iron't
+[19Apr2025 05:08:53.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Hot Stuff]

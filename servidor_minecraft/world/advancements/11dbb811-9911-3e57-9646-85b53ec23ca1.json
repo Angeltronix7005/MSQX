@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-04-19 03:22:04 +0000"
@@ -77,9 +83,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/fish_stew": {
     "criteria": {
       "has_any_ingredient": "2025-04-19 03:22:04 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/diamond_battle_axe_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -239,6 +257,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/combat/flint_knife": {
     "criteria": {
       "has_stick": "2025-04-19 03:24:25 +0000"
@@ -275,6 +305,12 @@
     },
     "done": true
   },
+  "l2weaponry:recipes/tools/generated/craft/diamond_round_shield_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-04-19 03:22:04 +0000"
@@ -284,6 +320,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-04-19 03:56:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -317,9 +359,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-04-19 03:43:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
     },
     "done": true
   },
@@ -422,6 +476,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-04-19 04:31:11 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/diamond_throwing_axe_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -575,6 +635,18 @@
     },
     "done": true
   },
+  "l2weaponry:recipes/tools/generated/craft/diamond_scythe_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-04-19 04:02:20 +0000",
@@ -587,6 +659,12 @@
   "storagedrawers:recipes/storagedrawers/illumination_upgrade": {
     "criteria": {
       "has_template": "2025-04-19 03:19:41 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/diamond_javelin_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -788,6 +866,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/bamboo_trim": {
     "criteria": {
       "has_planks": "2025-04-19 03:19:41 +0000"
@@ -812,6 +896,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-04-19 03:21:20 +0000"
@@ -833,6 +923,18 @@
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-04-19 03:25:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -933,6 +1035,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/mangrove_trim": {
     "criteria": {
       "has_planks": "2025-04-19 03:19:41 +0000"
@@ -942,6 +1050,12 @@
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2025-04-19 03:57:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -1233,6 +1347,24 @@
     },
     "done": true
   },
+  "l2complements:recipes/enchantments/enchantments/durable_armor_1": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
+  "l2complements:recipes/enchantments/enchantments/durable_armor_2": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
+  "l2complements:recipes/enchantments/enchantments/durable_armor_3": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2025-04-19 03:33:15 +0000"
@@ -1329,6 +1461,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2025-04-19 03:57:50 +0000"
@@ -1356,6 +1494,12 @@
   "storagedrawers:recipes/storagedrawers/dark_oak_trim": {
     "criteria": {
       "has_planks": "2025-04-19 03:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
     },
     "done": true
   },
@@ -1443,6 +1587,12 @@
     },
     "done": true
   },
+  "advancednetherite:recipes/misc/netherite_diamond_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/diamond]": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-04-19 03:24:25 +0000"
@@ -1509,6 +1659,18 @@
     },
     "done": true
   },
+  "l2weaponry:recipes/tools/generated/craft/diamond_machete_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
+    },
+    "done": true
+  },
   "l2complements:recipes/enchantments/enchantments/snow_walker": {
     "criteria": {
       "has_leather": "2025-04-19 04:31:11 +0000"
@@ -1539,6 +1701,12 @@
     },
     "done": true
   },
+  "l2weaponry:recipes/tools/generated/craft/diamond_dagger_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2025-04-19 03:24:25 +0000"
@@ -1554,6 +1722,12 @@
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2025-04-19 03:19:41 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/diamond_claw_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -1653,6 +1827,12 @@
     },
     "done": true
   },
+  "l2weaponry:recipes/tools/generated/craft/diamond_nunchaku_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-04-19 04:31:56 +0000"
@@ -1668,6 +1848,18 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-04-19 03:28:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/diamond_hammer_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -1812,6 +2004,12 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-04-19 03:51:44 +0000"
@@ -1833,6 +2031,12 @@
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-04-19 03:56:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },
@@ -1926,9 +2130,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:04:22 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/diamond_spear_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
+    },
+    "done": true
+  },
   "storagedrawers:recipes/storagedrawers/gold_storage_upgrade": {
     "criteria": {
       "has_template": "2025-04-19 03:19:41 +0000"
+    },
+    "done": true
+  },
+  "l2weaponry:recipes/tools/generated/craft/diamond_plate_shield_enchanted": {
+    "criteria": {
+      "has_diamond": "2025-04-19 05:06:24 +0000"
     },
     "done": true
   },

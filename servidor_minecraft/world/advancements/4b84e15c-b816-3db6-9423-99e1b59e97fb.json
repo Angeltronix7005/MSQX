@@ -14,6 +14,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-04-19 04:25:34 +0000",
+      "minecraft:frozen_river": "2025-04-19 05:01:03 +0000",
       "minecraft:birch_forest": "2025-04-19 04:22:20 +0000",
       "minecraft:beach": "2025-04-16 03:16:08 +0000",
       "minecraft:dark_forest": "2025-04-19 04:24:47 +0000",
@@ -22,7 +23,9 @@
       "minecraft:stony_shore": "2025-04-19 04:14:03 +0000",
       "minecraft:cold_ocean": "2025-04-16 03:16:48 +0000",
       "minecraft:forest": "2025-04-16 03:19:56 +0000",
+      "minecraft:frozen_ocean": "2025-04-19 05:08:16 +0000",
       "minecraft:ocean": "2025-04-19 04:16:21 +0000",
+      "minecraft:snowy_beach": "2025-04-19 05:05:36 +0000",
       "minecraft:flower_forest": "2025-04-19 04:16:20 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-19 04:25:25 +0000",
       "minecraft:meadow": "2025-04-19 04:12:56 +0000",
@@ -1447,6 +1450,7 @@
       "minecraft:vindicator": "2025-04-19 04:18:19 +0000",
       "minecraft:spider": "2025-04-18 01:20:43 +0000",
       "minecraft:creeper": "2025-04-18 01:27:25 +0000",
+      "minecraft:witch": "2025-04-19 05:07:43 +0000",
       "minecraft:silverfish": "2025-04-16 04:25:07 +0000",
       "minecraft:zombie": "2025-04-16 04:18:02 +0000",
       "minecraft:drowned": "2025-04-16 04:22:05 +0000"
@@ -2464,6 +2468,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-04-19 05:00:48 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/nether_salad": {
     "criteria": {
       "has_bowl": "2025-04-19 04:41:46 +0000"
@@ -2473,6 +2483,12 @@
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-04-19 04:12:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-04-19 05:00:48 +0000"
     },
     "done": true
   },
@@ -2512,9 +2528,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:07:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:07:44 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-04-19 05:04:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2025-04-19 04:12:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2025-04-19 05:00:48 +0000"
     },
     "done": true
   },
@@ -2527,6 +2567,12 @@
   "farmersdelight:recipes/food/wheat_dough_from_water": {
     "criteria": {
       "has_wheat": "2025-04-19 03:36:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-19 05:03:17 +0000"
     },
     "done": true
   },
@@ -2545,6 +2591,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-04-19 03:36:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:07:44 +0000"
     },
     "done": true
   },
@@ -2578,6 +2630,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:07:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
       "has_allium": "2025-04-19 04:15:50 +0000"
@@ -2587,6 +2645,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2025-04-19 03:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-19 05:03:17 +0000"
     },
     "done": true
   },
@@ -2617,6 +2681,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-04-19 04:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-04-19 05:03:17 +0000"
     },
     "done": true
   },
@@ -2686,6 +2756,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:07:44 +0000"
+    },
+    "done": true
+  },
   "l2complements:recipes/burnt/burnt/beef": {
     "criteria": {
       "has_beef": "2025-04-19 04:11:59 +0000"
@@ -2695,6 +2771,12 @@
   "sophisticatedbackpacks:recipes/misc/copper_backpack": {
     "criteria": {
       "has_backpack": "2025-04-19 04:57:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:07:44 +0000"
     },
     "done": true
   },
@@ -2746,6 +2828,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-04-19 05:07:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-04-19 04:11:59 +0000"
@@ -2755,6 +2843,12 @@
   "sophisticatedbackpacks:recipes/misc/iron_backpack": {
     "criteria": {
       "has_backpack": "2025-04-19 04:57:27 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2025-04-19 05:00:48 +0000"
     },
     "done": true
   },
