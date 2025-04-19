@@ -352,3 +352,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 05:06:24.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sasuke6525 has made the advancement [Diamonds!]
 [19Apr2025 05:07:08.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> resumen del server, 20 aldeas y iron't
 [19Apr2025 05:08:53.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Hot Stuff]
+[19Apr2025 05:11:45.328] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[19Apr2025 05:13:32.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has reached the goal [Hunted]

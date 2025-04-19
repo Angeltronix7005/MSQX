@@ -4738,3 +4738,13 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 05:08:27.221] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [19Apr2025 05:08:27.229] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [19Apr2025 05:08:53.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Hot Stuff]
+[19Apr2025 05:09:09.455] [Worker-Main-87/DEBUG] [ModernFix/]: Structure nova_structures:wild_ruin/wild_ruin_6 is being run through DFU (hash 5d8f10ddd51abe91dea9a58693237e5da5f29fc7e927c0b8bbb1ae2e31b853ae), this will cause launch time delays
+[19Apr2025 05:09:57.368] [Worker-Main-87/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:witch_villa/backyard/witch_villa_backyard_1
+[19Apr2025 05:11:45.328] [Worker-Main-87/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=216, y=47, z=211}
+[19Apr2025 05:13:07.888] [Worker-Main-87/DEBUG] [ModernFix/]: Structure nova_structures:wild_ruin/wild_ruin_9 is being run through DFU (hash 878d7c37e32272da39aab9c132fee2dac88e6683d32857bfbfb7b51ad53e3e2b), this will cause launch time delays
+[19Apr2025 05:13:27.182] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Apr2025 05:13:27.187] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Apr2025 05:13:32.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has reached the goal [Hunted]
+[19Apr2025 05:15:55.240] [Worker-Main-87/DEBUG] [ModernFix/]: Structure nova_structures:wild_ruin/wild_ruin_16 is being run through DFU (hash 2c4433bfb9ed7fffddcea02a6876de349f32f9bd7cec0b09ce5bdf13419d2f25), this will cause launch time delays
+[19Apr2025 05:18:27.168] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Apr2025 05:18:27.173] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
