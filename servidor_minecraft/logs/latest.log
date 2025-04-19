@@ -285,3 +285,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 04:00:05.926] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:smelting in 176.0 μs. 218/218 recipes are parallelized.
 [19Apr2025 04:01:50.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> necesitass mucha piedra?
 [19Apr2025 04:01:53.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> di
+[19Apr2025 04:09:05.460] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/169, l='ServerLevel[world]', x=-407.55, y=79.00, z=-328.17] died, message: 'Villager was slain by Sprinter'
+[19Apr2025 04:13:36.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> bb me haces tp a raptor?
+[19Apr2025 04:13:51.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Teleported Ferlein to JustRaptor]
+[19Apr2025 04:16:14.779] [Worker-Main-1/INFO] [ModernFix/]: Instantiating Mojang DFU
