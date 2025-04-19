@@ -297,3 +297,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [19Apr2025 04:27:35.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> -.-
 [19Apr2025 04:27:40.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> 7.7
 [19Apr2025 04:27:44.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> 7.7
+[19Apr2025 04:31:56.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sasuke6525 has made the advancement [A Seedy Place]
+[19Apr2025 04:32:13.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sasuke6525 has made the advancement [Crops of the Wild]
+[19Apr2025 04:32:15.036] [Worker-Main-68/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[19Apr2025 04:32:39.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Safe Haven]
+[19Apr2025 04:33:04.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JustRaptor has made the advancement [Call For Adventure]
+[19Apr2025 04:33:11.537] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6787ms or 135 ticks behind
+[19Apr2025 04:33:18.007] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/165, l='ServerLevel[world]', x=-395.44, y=77.00, z=-381.05] died, message: 'Villager was slain by Sprinter'
+[19Apr2025 04:33:49.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferlein has made the advancement [Safe Haven]
+[19Apr2025 04:34:07.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sasuke6525 has made the advancement [Suit Up]
+[19Apr2025 04:34:19.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> amor tienes roble oscuro o nel?
+[19Apr2025 04:34:25.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> si
+[19Apr2025 04:34:35.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> el brote?
+[19Apr2025 04:34:39.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> no
+[19Apr2025 04:34:44.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Angeltronix7005> puede que necesite suficiente
+[19Apr2025 04:34:47.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sasuke6525 has made the advancement [Isn't It Iron Pick]
+[19Apr2025 04:34:49.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferlein> fijate que consegui la madera y no el brote
+[19Apr2025 04:35:50.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Creative Mode]
+[19Apr2025 04:36:22.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Angeltronix7005: Set own game mode to Survival Mode]
+[19Apr2025 04:36:46.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Angeltronix7005 has made the advancement [Take Aim]
